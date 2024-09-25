@@ -1,0 +1,35 @@
+/* section */
+
+.section-first {
+    background-color: var(--color-bg);
+}
+
+.section-two {
+    background-color: var(--color-bg-light);
+}
+
+.section__wrapper{
+    margin: 160px 360px;
+}
+
+.button {
+    font-family: Open Sans;
+    border: none;
+    background: none;
+    background: var(--color-bg);
+    color: var(--color-bg-light);
+    padding: 22px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button__link:hover {
+    background-color: var(--color-bg-lirgb);
+}
+
+.button__link:active {
+    background-color: var(--color-bg);
+}

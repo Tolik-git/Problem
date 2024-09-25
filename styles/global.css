@@ -1,0 +1,24 @@
+:root {
+    --color-bg: rgb(33, 33, 33);
+    --color-bg-lirgb: rgb(78, 76, 76);
+    --color-bg-light: rgb(255,255,255);
+    --color-secondary: rgb(135, 196, 64);
+    
+    --border-width: 1920px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-bg-light);
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
