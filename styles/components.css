@@ -19,11 +19,14 @@
     background: var(--color-bg);
     color: var(--color-bg-light);
     padding: 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button__link {
     font-size: 15px;
     font-weight: 600;
     line-height: 100%;
-    cursor: pointer;
-    text-align: center;
 }
 
 .button__link:hover {
@@ -32,4 +35,12 @@
 
 .button__link:active {
     background-color: var(--color-bg);
+}
+
+@media (max-width: 360px) {
+    .button__link {
+        width: 340px;
+        height: 60px;
+        align-items: center;
+    }
 }

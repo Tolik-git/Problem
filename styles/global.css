@@ -14,9 +14,10 @@
 body {
     background: var(--color-bg-light);
     margin: 0;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
+    max-width: var(--border-width);
 }
 
 a {
